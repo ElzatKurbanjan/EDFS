@@ -50,11 +50,11 @@ NameNode作为负责所有业务逻辑的节点，维护了两个数据结构，
 ### FileSystem
 以下是其数据结构图：
 
-![image](battle.png)
+![image](resource/FileSystem结构.png)
 
 ### DataNodeManager
 
-![image](battle.png)
+![image](resource/DataNode结构.png)
 
 ### 功能实现
 #### 列出目录
@@ -88,33 +88,33 @@ public String nameNodeTempDir="E:/DFSData/nameNodeTemp/";
 
 长这样：
 
-![image](battle.png)
+![image](resource/a文件内容.png)
 
 将分块大小设置为20B 默认备份数2 开了两个DataNode
 
 ### 上传请求
 以下是我在IDea输出调试得到的dataNodeManager和FileSystem的信息
 
-![image](battle.png)
+![image](resource/idea输出结果.png)
 
 以下是我在E:\DFSData\0（其中0为号DataNode）目录下的存储信息
 
 
-![image](battle.png)
+![image](resource/上传后的DataNode目录.png)
 
 a为文件名，后面的数字为块号
 
 ### 获取列表请求
 
-![image](battle.png)
+![image](resource/获取列表.png)
 
 ### 下载请求
 以下是PostMan的输出
-![image](battle.png)
+![image](resource/下载得到的PostMan输出.png)
 
 以下是在E:\DFSData\nameNodeTemp目录存的临时文件（暂未作删除处理）：
 
-![image](battle.png)
+![image](resource/下载得到的Temp目录.png)
 
 ### 删除操作
 不太好展示，请自行尝试
