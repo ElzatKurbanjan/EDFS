@@ -110,6 +110,7 @@ a为文件名，后面的数字为块号
 
 ### 下载请求
 以下是PostMan的输出
+
 ![image](resource/下载得到的PostMan输出.png)
 
 以下是在E:\DFSData\nameNodeTemp目录存的临时文件（暂未作删除处理）：
