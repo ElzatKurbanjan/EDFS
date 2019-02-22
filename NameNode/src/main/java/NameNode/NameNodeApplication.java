@@ -41,8 +41,11 @@ public class NameNodeApplication {
 
     public String nameNodeTempDir="E:/DFSData/nameNodeTemp/";
 
+    /*TODO:replace file system by database */
     //file system
     FileSystem myFileSystem=new FileSystem();
+
+
 
     //DataNode manager
     DataNodeManager dataNodeManager=new DataNodeManager();
